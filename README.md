@@ -118,8 +118,7 @@ The system is designed to be LLM-agnostic, allowing easy switching between diffe
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd CN-Assignment
+git clone https://github.com/4tharva2003/AI-Content-Creator-MultiAgent.git
 ```
 
 2. **Create virtual environment**
@@ -134,8 +133,7 @@ pip install -r requirements.txt
 ```
 
 4. **Environment setup**
-```bash
-cp .env.example .env
+```
 # Edit .env file and add your OpenAI API key
 ```
 
@@ -196,16 +194,10 @@ content = response.json()['content']
     └── climate_change.md
 ```
 
-## Demo and Deployment
-
-- **Live Demo**: [Streamlit App](https://your-app-url.streamlit.app)
-- **GitHub Repository**: [GitHub Link](https://github.com/your-username/ai-content-pipeline)
-- **Video Demo**: [YouTube Link](https://youtube.com/your-demo-video)
-
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3
 
 ## Future Enhancements
 
