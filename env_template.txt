@@ -1,0 +1,23 @@
+# Environment Variables Template
+# Copy this file to .env and fill in your actual API keys
+
+# OpenAI Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_MODEL=gpt-3.5-turbo  # Options: gpt-3.5-turbo, gpt-4, gpt-4-turbo
+
+# Alternative LLM APIs (optional)
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+GOOGLE_API_KEY=your_google_api_key_here
+
+# Application Settings
+DEBUG=False
+MAX_TOKENS=4000
+TEMPERATURE=0.7
+
+# CrewAI Settings
+CREW_VERBOSE=True
+CREW_MEMORY=True
+
+# Streamlit Configuration
+STREAMLIT_SERVER_PORT=8501
+STREAMLIT_SERVER_ADDRESS=localhost 
